@@ -180,7 +180,8 @@ Note that include files are generally installed into `spinnaker_tools/include`, 
 
 Installing the Python modules in developer mode allows you to use the modules from the command line.  Note that the IDEs allow you to run code directly within the IDE, and so this step is optional if you have installed an IDE.  Even when using an IDE, it can be useful to install the modules to avoid issues with the install.
 
-For each of the python modules, go into the root directory of the module and run:
+Follow the next step by doing the `SupportScripts` module first, then every other module in any order.
+go into the root directory of the module and run:
 
     [sudo] python setup.py develop --no-deps [--user]
 
